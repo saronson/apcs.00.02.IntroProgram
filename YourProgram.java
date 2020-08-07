@@ -27,7 +27,7 @@ public class YourProgram
 
     /**
      * Let's see how we can chain methods together.
-     * Make a Die object and then roll it 4 times but each time write the result to a whiteboard
+     * Make a Die object and then roll it 4 times but each time write the result to the same whiteboard
      */
     public void programDie() 
     {
