@@ -104,7 +104,7 @@ public class TestMain
         temp = temp.replace("\n", "").trim();
 
         // assertion
-        assertEquals("Should be 4", 4, temp.length());
+        assertEquals("Should be 4 rolls", 4, temp.length());
         System.out.println("Success!");
 
         TestManager.insertAttempt("3");
