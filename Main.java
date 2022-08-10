@@ -59,8 +59,13 @@ public class Main
 
     /****** DO NOT EDIT BELOW ******/
     public static void main(String args[]) {
-        TestMain test = new TestMain();
-        test.main(null);
+        // TestMain test = new TestMain();
+        // test.main(null);
+        Main main = new Main();
+        main.programAudienceMember();
+        main.programWhiteboard();
+        main.programDie();
+        main.playAround();
     }
 
 }

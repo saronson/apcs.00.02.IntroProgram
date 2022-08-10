@@ -10,17 +10,17 @@ import java.io.*;
 public class TestMain
 {
     public static void main(String args[]) {
-        System.out.println("Testing 02.IntroProgram...");
+        System.out.println("Testing IntroProgram...");
 
-        TestManager.insertStatus("0");
-        TestManager.insertAttempt("0");
+        //TestManager.insertStatus("0");
+        //TestManager.insertAttempt("0");
         TestMain test = new TestMain();
         test.testAudienceMember();
         test.testWhiteboard();
         test.testDie();
         System.out.println("Finished");
-        TestManager.insertAttempt("done");
-        TestManager.insertStatus("done");
+        //TestManager.insertAttempt("done");
+        //TestManager.insertStatus("done");
 
         System.out.println("Running playAround...");
         Main yp = new Main();
@@ -52,8 +52,8 @@ public class TestMain
         assertEquals("Should stand clap sit", "standclapsit", temp);
         System.out.println("Success!");
 
-        TestManager.insertAttempt("1");
-        TestManager.insertStatus("1");
+        //TestManager.insertAttempt("1");
+        //TestManager.insertStatus("1");
 
     }
 
@@ -80,8 +80,8 @@ public class TestMain
         assertEquals("Should be Hello World!", ans, temp);
         System.out.println("Success!");
 
-        TestManager.insertAttempt("2");
-        TestManager.insertStatus("2");
+        //TestManager.insertAttempt("2");
+        //TestManager.insertStatus("2");
     }
 
     @Test
@@ -107,8 +107,8 @@ public class TestMain
         assertEquals("Should be 4 rolls", 4, temp.length());
         System.out.println("Success!");
 
-        TestManager.insertAttempt("3");
-        TestManager.insertStatus("3");
+        //TestManager.insertAttempt("3");
+        //TestManager.insertStatus("3");
 
     }
 }
